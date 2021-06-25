@@ -1,0 +1,33 @@
+@media screen and (max-width: 1200px) {
+    body{ 
+        max-width: 1050px;
+        
+    }
+    nav{
+        // padding-left: 100px;
+       
+       
+        .sidebar{
+            ul{
+               margin-left: 40px;
+            }
+        }
+    }
+    //---header--
+    header{
+        justify-content: center;
+        .content{
+            padding-left: 18px;
+            padding-right: 20px;
+        }
+    }
+
+    //---detalization---
+
+    .detalization{
+        .wrapper-content{
+            margin-left: 25px;
+            margin-right: 76px;
+        }
+    }
+}

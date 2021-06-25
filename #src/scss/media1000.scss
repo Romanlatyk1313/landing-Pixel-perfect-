@@ -1,0 +1,76 @@
+@media screen and (max-width: 1000px) {
+    body{
+        max-width: 800px;
+    }
+
+     //---article1---
+     article{
+         
+        .wrapper-block{
+            .wrapper-content{
+
+                grid-template: repeat(4,98px) / repeat(1,1fr);
+                justify-items: center;
+                div{
+                    &:nth-child(odd){
+                      margin-left: 0px;
+                    }
+            }}
+        }
+     }
+       //---detalization---
+
+    .detalization{
+        .wrapper-content{
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+    }
+
+      //---Treatment---
+
+.treatment{
+  
+    .wrapper-treatment{
+        grid-template-columns: 300px auto ;
+        .box{
+            img{
+                width: 360px;
+                height: 240px;
+            }
+            .content{
+                width: 300px;
+            }
+        }
+    }
+}
+
+//---DOWNLOAD PRESCRIBING INFORMATION---
+
+.downloadInformation{
+    p{
+        width: 750px;
+    }
+
+}
+//---sideEffects---
+
+.sideEffects{
+    h3{
+      padding-top: 60px;
+  margin: 0 auto 40px;
+    }
+    .wrapper-sideEffects{
+        width: 750px;
+       p{
+      padding-bottom: 24px;
+      width: 750px;
+      text-align: center;
+      margin: 0 auto;
+    }
+    p:last-child{
+      padding-bottom: 60px;
+    }
+    }
+}
+}
